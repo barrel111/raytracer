@@ -1,0 +1,7 @@
+(library
+ (name scene)
+ (public_name path_tracer.scene)
+ (libraries core rendering)
+ (instrumentation
+  (backend bisect_ppx))
+ (modules bvh_node camera quad sphere volume world))

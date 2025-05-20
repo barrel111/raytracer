@@ -1,0 +1,39 @@
+(test
+ (name test_color)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_vec)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_ray)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_sphere)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_interval)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_world)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_randomized_vec)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_geometry)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_materials)
+ (libraries ounit2 path_tracer qcheck))
+
+(test
+ (name test_aabb)
+ (libraries ounit2 path_tracer qcheck))

@@ -1,0 +1,7 @@
+(library
+ (name rendering)
+ (public_name path_tracer.rendering)
+ (libraries core)
+ (instrumentation
+  (backend bisect_ppx))
+ (modules color hittable materials))

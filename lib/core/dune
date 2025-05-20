@@ -1,0 +1,6 @@
+(library
+ (name core)
+ (public_name path_tracer.core)
+ (instrumentation
+  (backend bisect_ppx))
+ (modules aabb geometry interval ray vec))
